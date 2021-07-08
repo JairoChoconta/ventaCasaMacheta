@@ -317,6 +317,7 @@ input {
 
 .home__data-subtitle,
 .home__data-title,
+.home__social-link,
 .home__info {
 	color: var(--white-color);
 }
@@ -331,6 +332,17 @@ input {
 	font-size: var(--biggest-font-size);
 	font-weight: var(--font-medium);
 	margin-bottom: var(--mb-2-5);
+}
+
+.home__social {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1.5rem;
+}
+
+  .home__social-link {
+	font-size: 1.2rem;
+	width: max-content;
 }
 
 .home__info {
@@ -744,7 +756,7 @@ input {
 
 	.home__info {
 		width: 190px;
-		padding: 1rem;
+		padding: 0;
 	}
 
 	.features__img,
