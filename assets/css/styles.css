@@ -298,17 +298,7 @@ input {
 }
 
 /*================ HOME =================*/
-.home {
-	background-image: linear-gradient(rgba(68,13,13,0.35), rgba(38,2,2,0.446)), url('/assets/img/home1.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-
-}
-
 .home__img {
-	
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -722,6 +712,7 @@ input {
 	}
 
 	.home__data-title {
+		
 		font-size: var(--biggest-font-size);
 		font-weight: var(--font-medium);
 		margin-bottom: var(--mb-1);
